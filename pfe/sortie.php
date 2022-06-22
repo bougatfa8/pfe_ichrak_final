@@ -44,7 +44,7 @@
 if (isset($_GET['refpE'])){
   $c=$_GET['refpE'];
 
-    $sql = "SELECT * FROM stock where refp= $c  ";
+    $sql = "SELECT * FROM stock where refp= '$c'  ";
     
 
 

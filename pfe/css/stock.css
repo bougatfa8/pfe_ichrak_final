@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body{
+      background-color: #f1eaea;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 10px 80px;
+    z-index: 10000;
+    background-color:#A32638;
+
+  }
+  
+  header.sticky {
+    padding: 5px 100px;
+    background-color:ghostwhite;
+    box-shadow: 0px 0px 30px #000;
+
+
+  }
+  
+  header .logo {
+    position: relative;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+
+
+  }
+  
+  header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header ul li {
+    position: relative;
+    list-style: none;
+  }
+  
+  header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color:white;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+  }
+  
+  header.sticky .logo,
+  header.sticky li a {
+    color: #A32638;
+  }
+
+  header a:hover{
+    color: black;
+    font-weight: bold;
+    transition: 1s ;
+    padding-left: 0px;
+}
+
+
+  .logo{
+
+width: 100px;
+height: 100px;
+float: left;
+border-radius: 5px 5px 5px;
+
+  }
+
+
+
+  aside{
+      font-family:'Courier New', Courier, monospace;;
+      width: 400px;
+      height: 733px;
+      text-decoration: none;
+      margin-top: 20px;
+      padding-top: 110px;
+      padding-bottom: 20px;
+      padding-left:-20px;
+      padding-left: 0px;
+      text-align: center;
+      float :right;
+      background-color: #A32638;
+      color: azure;
+    }
+aside h1  {
+padding-left: 30px;
+}
+
+aside  p {
+    margin-left: 30px;
+}  
+aside img{
+    margin-left: 30px;
+}
+
+  aside .imge  {
+    position: relative;
+    list-style: none;
+    display:inline;  
+    
+    
+    
+}
+  
+  aside .imge  img {
+    position: relative;
+    margin: 0 25px;
+    text-decoration: none;
+    color:white;
+    letter-spacing: 3px;
+    font-weight: 500;
+
+  }
+  aside ul {
+    list-style-type: none;
+    position: relative;  
+    margin-top: 40px;
+    height: 100px;
+}
+  aside h2{
+    
+padding-bottom: 20px;
+padding-left: 20px;
+
+  }
+ .conmail{
+   padding-top: 100px;
+margin-top: 200px;
+}
+aside .conphone{
+    padding-top: 20px;
+}
+aside .conadres{
+    padding-top: 20px;
+}
+article{
+    
+    padding-top: 140px;
+}
+article h1{
+    padding-bottom: 15px;
+}
+article p{
+    text-align:inherit;
+    font-family:'Courier New', Courier, monospace;
+font-size: 35px;
+}
+article button {
+
+    display: inline-block;
+    background-color: #a71414;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 435px;
+  
+}
+article button a {
+    text-decoration: none;
+    color: #cccccc;
+}
+footer{
+    text-align: center;
+    padding-left: 80px;
+    padding-top: 55px;
+
+}
